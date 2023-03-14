@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600&family=Quicksand:wght@300;500;600;700&display=swap');
+
+body {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.authentication-page {
+  display: flex;
+  background-color: #4070F4;
+  height: 96vh;
+  padding-top: 2em;
+  width: 100%;
+  
+}
+
+.form-container {
+  display: flex;
+  justify-content:center ;
+  width: 100%;
+  gap: 10em;
+  
+}
+
+
+.title{
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+
+.auth-form, .signup-form{
+  background-color: white;
+  height: 400px;
+  width: 300px;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.auth-form input{
+  display: block;
+
+}
+
+.input-container{
+  width: 100%;
+  
+}
+
+.input-container input {
+  margin-bottom: 1em;
+  height: 30px;
+  width: 100%;
+  background-color: white  ;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.authentication-page button{
+  width: 100%;
+  padding: 1em;
+  background-color: #0171D3;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+
+}
